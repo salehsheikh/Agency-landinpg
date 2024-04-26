@@ -35,7 +35,7 @@ const AboutUs = () => {
           />
         </div>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center ">
         <img src="Ellipse 180.png" alt="ellipse" />
       </div>
     </>
