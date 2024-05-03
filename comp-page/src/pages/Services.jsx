@@ -231,7 +231,7 @@ function Services() {
             <p>Umer</p>
           </div>
 
-          <div className="flex flex-col items-center mb-4">
+          <div className="flex flex-col items-center mb-8">
             <div className="rounded-full overflow-hidden w-20 h-20 sm:w-24 sm:h-24 flex justify-center items-center">
               <img
                 src="p5.jpeg"
@@ -243,6 +243,14 @@ function Services() {
             <p>Ayesha</p>
           </div>
         </div>
+
+        {/* image clip */}
+        <div className="flex justify-around m-8">
+          <img src="Deco-img-arrow (1).png" alt="arrow" srcset="" />
+          <img src="Deco-img-arrow.png" alt="img" />
+        </div>
+
+
       </div>
     </>
   );
