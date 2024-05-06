@@ -2,7 +2,7 @@ import React from "react";
 
 const CaseStudies = () => {
   return (
-    <div className="bg-[#F5F5F5] translate-y-[-140px] ">
+    <div className="bg-[#F5F5F5] translate-y-[-140px] mt-36 ">
       <div className="lg:pl-[410px] md:pl-[40px] lg:pt-9">
         <img src="Ellipse 180.png" alt="elipse" className="w-[18px] h-[18px]" />
       </div>
@@ -32,7 +32,7 @@ const CaseStudies = () => {
             management boasts of over 20 years of rich and varied experience in
             the shipping and freight forwarding industry.
           </p>
-          <p className="bg-gradient-to-r from-[#DE4396] to-[#0D1C9F] text-transparent bg-clip-text lg:pl-[390px] pt-[70px]">
+          <p className="bg-gradient-to-r from-[#DE4396] to-[#0D1C9F] text-transparent bg-clip-text lg:ml-[390px] pt-[70px]">
             Read more &gt;
           </p>
         </div>
@@ -60,7 +60,7 @@ const CaseStudies = () => {
             management boasts of over 20 years of rich and varied experience in
             the shipping and freight forwarding industry.
           </p>
-          <p className="bg-gradient-to-r from-[#DE4396] to-[#0D1C9F] text-transparent bg-clip-text lg:pl-[390px] pt-[70px]">
+          <p className="bg-gradient-to-r from-[#DE4396] to-[#0D1C9F] text-transparent bg-clip-text lg:ml-[390px] pt-[70px]">
             Read more &gt;
           </p>
         </div>

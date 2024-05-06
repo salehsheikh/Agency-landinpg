@@ -41,7 +41,7 @@ function Services() {
   };
   return (
     <>
-      <div className="w-[1440px]h-auto bg-[#F9F9FF] z-20 mt-4 translate-y-[-58px]">
+      <div className="w-[1440px]h-auto bg-[#F9F9FF] z-20 mt-16 translate-y-[-58px]">
         <h1 className="text-center font-bold pt-4 pb-5">Services we offer</h1>
         <div className="slider-container">
           <Slider {...settings}>
@@ -104,7 +104,7 @@ function Services() {
       <div>
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
           <div className="text-center md:text-left h-[460px] leading-loose">
-            <hr class="w-8 h-[5px] bg-[#DE4396] mb-4 md:mb-0 md:mr-4" />
+            <hr className="w-8 h-[5px] bg-[#DE4396] mb-4 md:mb-0 md:mr-4" />
             <br />
             <h2 className="text-lg font-semibold mb-2 leading-loose">
               Leading companies trust us to{" "}
@@ -130,7 +130,7 @@ function Services() {
           </div>
         </div>
         <div className="px-[117px] mt-[100px] flex-1">
-          <hr class="w-8 h-[5px] bg-[#DE4396] mb-4 md:mb-0 md:mr-4" />
+          <hr className="w-8 h-[5px] bg-[#DE4396] mb-4 md:mb-0 md:mr-4" />
           <h1>
             Meet the People <br />
             <span className="font-bold">We are Working With</span>{" "}
@@ -138,7 +138,7 @@ function Services() {
         </div>
         <div className="flex justify-center items-center">
           <div className="flex justify-center items-center mr-8 lg:ml-[900px]">
-            <span class="rounded-full bg-white text-blue-300 w-10 h-10 flex justify-center items-center border border-blue-300">
+            <span className="rounded-full bg-white text-blue-300 w-10 h-10 flex justify-center items-center border border-blue-300">
               →
             </span>
           </div>
@@ -151,25 +151,25 @@ function Services() {
         <div className="flex justify-center items-center mt-5">
           <img src="Ellipse 180.png" alt="ellipse" />
         </div>
-        <div class="flex flex-wrap justify-center  bg-[#F7F7FA] translate-y-[-41px]">
-          <img src="image.png" alt="0" class="m-2 w-32 h-32 lg:w-48 lg:h-20" />
-          <img src="image1.png" alt="1" class="m-2 w-32 h-32 lg:w-48 lg:h-20" />
-          <img src="image2.png" alt="2" class="m-2 w-32 h-32 lg:w-48 lg:h-20" />
-          <img src="image3.png" alt="3" class="m-2 w-32 h-32 lg:w-48 lg:h-20" />
-          <img src="image4.png" alt="4" class="m-2 w-32 h-32 lg:w-48 lg:h-20" />
-          <img src="image5.png" alt="5" class="m-2 w-32 h-32 lg:w-48 lg:h-20" />
+        <div className="flex flex-wrap justify-center  bg-[#F7F7FA] translate-y-[-41px]">
+          <img src="image.png" alt="0" className="m-2 w-32 h-32 lg:w-48 lg:h-20" />
+          <img src="image1.png" alt="1" className="m-2 w-32 h-32 lg:w-48 lg:h-20" />
+          <img src="image2.png" alt="2" className="m-2 w-32 h-32 lg:w-48 lg:h-20" />
+          <img src="image3.png" alt="3" className="m-2 w-32 h-32 lg:w-48 lg:h-20" />
+          <img src="image4.png" alt="4" className="m-2 w-32 h-32 lg:w-48 lg:h-20" />
+          <img src="image5.png" alt="5" className="m-2 w-32 h-32 lg:w-48 lg:h-20" />
         </div>
 
-        <div class="flex justify-center">
-          <hr class="w-10 h-[5px] bg-[#DE4396] mb-4 md:mb-0 md:mr-4" />
+        <div className="flex justify-center">
+          <hr className="w-10 h-[5px] bg-[#DE4396] mb-4 md:mb-0 md:mr-4" />
         </div>
-        <div class="text-center ">
-          <h1 class="text-3xl  mb-4">
+        <div className="text-center ">
+          <h1 className="text-3xl  mb-4">
             Why customers love <br />{" "}
-            <span class="font-bold">working with us</span>
+            <span className="font-bold">working with us</span>
           </h1>
-          <p class="text-lg text-[#718096]">
-            <span class="text-[#DE4396] lg:pr-20 md:pr-2 sm:pr-0 font-bold  ">
+          <p className="text-lg text-[#718096]">
+            <span className="text-[#DE4396] lg:pr-20 md:pr-2 sm:pr-0 font-bold  ">
               &lsquo;
             </span>
             Without any doubt I recommend Alcaline Solutions as one of
@@ -177,7 +177,7 @@ function Services() {
             <br /> the best agencies I’ve come across so far. Wouldn’t <br />
             hesitate to introduce their work to someone else.
             <br />{" "}
-            <span class="text-[#DE4396] lg:pl-[650px] font-bold sm:pl-0 md:pl-0 ">
+            <span className="text-[#DE4396] lg:pl-[650px] font-bold sm:pl-0 md:pl-0 ">
               &rsquo;
             </span>
           </p>
@@ -245,10 +245,11 @@ function Services() {
         </div>
 
         {/* image clip */}
-        <div className="flex justify-around m-8">
-          <img src="Deco-img-arrow (1).png" alt="arrow" srcset="" />
-          <img src="Deco-img-arrow.png" alt="img" />
-        </div>
+        <div className="flex justify-between md:justify-around m-8 relative z-10">
+  <img src="Deco-img-arrow (1).png" alt="arrow" className="w-1/2 md:w-auto" />
+  <img src="Deco-img-arrow.png" alt="img" className="w-1/2 md:w-auto" />
+</div>
+
 
 
       </div>

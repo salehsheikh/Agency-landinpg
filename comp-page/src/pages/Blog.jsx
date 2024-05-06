@@ -3,7 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <>
-      <div className="flex justify-center lg:mb-4  ">
+      <div className="flex justify-center lg:mb-4 ">
         <hr className="w-10 h-[5px] bg-[#DE4396] mb-4 md:mb-0 md:mr-4" />
       </div>
       <div className="lg:flex justify-center items-center ">
@@ -14,10 +14,10 @@ const Blog = () => {
           <h1 className="font-bold ">Tech stack</h1>
         </div>
       </div>
-      <div class="flex justify-center">
-        <ul class="flex lg:gap-12 md:gap-3 sm:flex-wrap">
-          <li class="relative text-pink-500">
-            <span class="absolute inset-x-2 bottom-[-4px] h-1 bg-pink-500"></span>
+      <div className="flex justify-center">
+        <ul className="flex lg:gap-12 md:gap-3 sm:flex-wrap">
+          <li className="relative text-pink-500">
+            <span className="absolute inset-x-2 bottom-[-4px] h-1 bg-pink-500"></span>
             Backend
           </li>
           <li>Frontend</li>
@@ -28,8 +28,8 @@ const Blog = () => {
         </ul>
       </div>
       <div>
-        <div class="flex justify-center">
-            <ul  class="flex lg:gap-3 md:gap-1 sm:flex-wrap">
+        <div className="flex justify-center">
+            <ul  className="flex lg:gap-3 md:gap-1 sm:flex-wrap">
                 <li><img src="NodeJS.png" alt="node" /> </li>
                 <li><img src="PHP.png" alt="php" /></li>
                 <li><img src="mysql.png" alt="sql" /></li>
@@ -38,8 +38,8 @@ const Blog = () => {
             </ul>
         </div>
         {/* second list */}
-        <div class="flex justify-center">
-            <ul  class="flex lg:gap-2 md:gap-0 sm:flex-wrap">
+        <div className="flex justify-center">
+            <ul  className="flex lg:gap-2 md:gap-0 sm:flex-wrap">
                 <li><img src="Python.png" alt="node" /> </li>
                 <li><img src="RubyOnRails.png" alt="php" /></li>
                 <li><img src="Go.png" alt="sql" /></li>
